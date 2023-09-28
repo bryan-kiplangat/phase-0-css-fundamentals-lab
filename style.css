@@ -1,5 +1,40 @@
+/* css selectors https://www.w3schools.com/cssref/css_selectors.php */
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  align-content: center;
+  margin: auto;
+}
+
+nav > a {
+  padding: 10px;
+  background-color: darkslategray;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#featured-property > p {
+  width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+#details > div {
+  float: left;
+  background-color: red;
+  width: 25%;
+  text-align: center;
 }
